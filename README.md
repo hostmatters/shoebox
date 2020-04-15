@@ -161,6 +161,13 @@ Either way, be mindful of the law of diminishing returns. For example, the premi
   $ sudo git --version # to confirm `git` is successfully installed
   ```
 
+- #### Httpd tools
+  install httpd tools in order to have the `htpasswd` tool to generate hashed passwords.
+
+  ```
+  $yum install httpd-tools
+  ```
+
 ### Infrastructure
 
 - #### Disable SELinux
